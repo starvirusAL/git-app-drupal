@@ -1,6 +1,10 @@
 <?php
 
 /**
+<<<<<<< HEAD
+ * Hey Bill GEYts
+=======
+>>>>>>> c013adc7042454158b14244f67b1c0a57aae6404
  * @file
  * The PHP page that serves all page requests on a Drupal installation.
  *
