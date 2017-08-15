@@ -5,9 +5,10 @@ if (!empty($_GET)) {
 };
 
 function connect() {
-  $GLOBALS['connect'] = mysqli_connect('localhost', 'root', 'godrupalgo', 'mytestdatabase');
+  $GLOBALS['connect'] = mysqli_connect('46.30.40.99', 'vh58416_gist', 'WXfrU16T', 'vh58416_gist');
 };
 
+/*
 function List_My() {
   foreach (new DirectoryIterator(__DIR__ . '/snippets') as $file) {
     if ($file->isFile()) {
@@ -25,7 +26,7 @@ function list_array_function() {
     }
   }
 }
-
+*/
 function custom() {
     connect();
     $connect = $GLOBALS['connect'];
